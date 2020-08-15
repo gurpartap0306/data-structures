@@ -16,7 +16,7 @@ int main()
     {
       int pos=i;
       for(int j=i+1;j<n;j++)
-        if(input[i]>input[j])
+        if(input[pos]>input[j])
           pos=j;
 
       if(pos!=i)
